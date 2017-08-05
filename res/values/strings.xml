@@ -1,0 +1,86 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    //General
+    <string name="app_name">Madonomics</string>
+    <string name="txtCurrencyText"></string>
+    <string name="btnCalculate">Calculate</string>
+
+    //Start
+    <string name="txtStart01Text">Madonomics v1.1</string>
+    <string name="txtStart02Text">Do you want to know how much it takes to be financial independent? Or the amount you will have on your account in the future?</string>
+    <string name="txtStart03Text">With some help from Madonomics you will be able to see the amazing benefits from interest on interest.</string>
+    <string name="txtStart04Text">I hope that you will invest in your future.</string>
+    <string name="btnStartFriText">What amount is needed to be free?</string>
+    <string name="btnStartRprText">Interest on interest</string>
+    <string name="btnStartFundCost">Fund cost</string>
+    <string name="btnStartSkuldkvotText">Financial debt</string>
+    <string name="btnStartInfoText">Information</string>
+
+    //Fri
+    <string name="txtFree01Header">What does free really mean?</string>
+    <string name="txtFree02Text">To be free is to have the possibility to use your yearly revenue to live your life. If you reach an average revenue of 8% you should be able to use the revenue each year for all your expenses without seeing your balance decrease each year.</string>
+    <string name="txtFriMonthText">Your requested revenue each month</string>
+    <string name="txtFriRevenueText" tools:ignore="StringFormatInvalid">Your average revenue in % each year</string>
+    <string name="txtFriRevenueDefault">8</string>
+    <string name="txtFriAmountText">What is your current balance?</string>
+    <string name="txtFriMonthPayText">What amount can you save each month?</string>
+    <string name="txtFriYouNeedText">You need</string>
+    <string name="txtFriGetToRprText">How to get there? Use the calculator for interest on interest</string>
+
+    //Rpr
+    <string name="txtInterest01Header">Interest on interest</string>
+    <string name="txtInterest02Text">In short this means that you with regular investments and re-investments of your profit makes your revenue increase to a fortune over time.</string>
+    <string name="txtInterest03Text" tools:ignore="StringFormatInvalid">Lets say you have a balance of 100O and reach an average revenue of 8% each year. This means that you will have a balance of 1080 at the end of the year. With the same revenue the following year your balance has reached 1166 without further investments.</string>
+    <string name="txtInterest04Text">With monthly investments the difference will be more obvious. Lets say you start with 300 and you invest 150 each month with the revenue of 8%:</string>
+    <string name="txtInterest05Text">Year 1 gives you a balance of 2125 and your revenue is 25.</string>
+    <string name="txtInterest06Text">Year 5 gives you a balance of 11000 and your revenue is 1700.</string>
+    <string name="txtInterest07Text">Year 10 gives you a balance of 26700 and your revenue is 8400.</string>
+    <string name="txtRprMonthText">Your monthly saving amount</string>
+    <string name="txtRprRevenueText" tools:ignore="StringFormatInvalid">Your average revenue in % each year</string>
+    <string name="txtRprAmountText">What is your current balance?</string>
+    <string name="txtRprYearsText">For how many years are you able to invest?</string>
+    <string name="txtRprTotalText">You will have</string>
+    <string name="txtRprYourRevenueText">Your revenue is</string>
+    <string name="txtRprTotalInvestText">You have invested</string>
+    <string name="txtRprDisclaimerText">*The revenue is calculated one time each year</string>
+
+    //Info
+    <string name="txtHowToInvest01Header">How to invest?</string>
+    <string name="txtHowToInvest02Text">You should try to invest at least 10% of your salary after tax. That way you will really see the benefits of interest on interest.</string>
+    <string name="txtHowToInvest03Text">Remember to spread your risks and do your research about the fund/company you about to invest in. Its way easier with funds instead of starting with the stock market.</string>
+    <string name="txtHowToInvest04Text">If you have a larger amount which you will use at the start of your investing career you have the choice to either invest all at once or to do it monthly over time. Its not easy to say whats right or wrong. If you decide you want to invest it all at once, you should be aware that if you have the bad luck of entering the market at a top, you will see your balance going in the wrong direction. Use Google to read about this as there are a lot of guidelines and information available around this topic.</string>
+    <string name="txtHowToInvest05Text">There are as many strategies as there are investors out there. Look around and see what fits your situation and personality.</string>
+    <string name="txtHowToInvest06Text">A good thing to do is to set up so all transaction is done automatically the date when you receive your salary. That way it will be easier keeping your regular investment strategy.</string>
+
+    <string name="txtFunds01Header"></string>
+    <string name="txtFunds02Text"></string>
+    <string name="txtFunds03Text"></string>
+
+    <string name="txtShares01Header"></string>
+    <string name="txtShares02Text"></string>
+    <string name="txtShares03Text"></string>
+
+    <string name="txtBank01Header"></string>
+    <string name="txtBank02Text"></string>
+    <string name="txtBank03Text"></string>
+
+    //Skuldkvot
+    <string name="txtSkuldkvotIntroText"></string>
+    <string name="txtSkuldkvotIncomeText"></string>
+    <string name="txtSkuldkvotTotalDebtText"></string>
+    <string name="txtSkuldkvotResultText"></string>
+    <string name="txtSkuldkvotResultKvotText"></string>
+    <string name="txtSkuldkvotExplanationText"></string>
+    <string name="txtSkuldkvotExplanationText02"></string>
+
+    //Fund Cost
+    <string name="txtFundCostIntroText">It is very important to be aware of the fund costs when choosing funds. One percent makes a huge impact over time.</string>
+    <string name="txtFundCostInvestText">Investment</string>
+    <string name="txtFundCostRevenueText">Yearly revenue in %</string>
+    <string name="txtFundCostYearsText">Amount of years</string>
+    <string name="txtFundCostFeeAText">Cost Fund A in %</string>
+    <string name="txtFundCostFeeBText">Cost Fund B in %</string>
+    <string name="txtFundCostValueAText">Value A</string>
+    <string name="txtFundCostValueBText">Value B</string>
+    <string name="txtFundCostResultText">Difference</string>
+
+</resources>

@@ -1,0 +1,89 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    //General
+    <string name="app_name">Madonomics</string>
+    <string name="txtCurrencyText">SEK</string>
+    <string name="btnCalculate">Beräkna</string>
+
+    //Start
+    <string name="txtStart01Text">Madonomics v1.1</string>
+    <string name="txtStart02Text">Vill du veta hur mycket som krävs för att du ska bli ekonomiskt fri? Eller hur mycket du kommer att ha sparat ihop till pensionen?</string>
+    <string name="txtStart03Text">Med hjälp av Madonomics kommer du se hur fantastisk ränta-på-ränta-effekten är.</string>
+    <string name="txtStart04Text">Min förhoppning är att även du ska investera i din framtid.</string>
+    <string name="btnStartFriText">Hur mycket krävs för att bli fri?</string>
+    <string name="btnStartRprText">Ränta på Ränta</string>
+    <string name="btnStartFundCost">Fondkostnad</string>
+    <string name="btnStartSkuldkvotText">Skuldkvot</string>
+    <string name="btnStartInfoText">Information</string>
+
+    //Fri
+    <string name="txtFree01Header">Vad innebär att vara fri?</string>
+    <string name="txtFree02Text" tools:ignore="StringFormatInvalid">Att vara fri betyder att du kan leva helt på avkastningen av dina investeringar. Om du når en genomsnittlig avkastning på 8% så ska du kunna leva på denna summa utan att ditt kapital minskar i värde.</string>
+    <string name="txtFriMonthText">Din önskade avkastning per månad</string>
+    <string name="txtFriRevenueText">Din genomsnittliga avkastning i procent per år</string>
+    <string name="txtFriRevenueDefault">8</string>
+    <string name="txtFriAmountText">Hur stort är ditt nuvarande kapital?</string>
+    <string name="txtFriMonthPayText">Hur mycket kan du spara per månad?</string>
+    <string name="txtFriYouNeedText">Du behöver</string>
+    <string name="txtFriGetToRprText">För att se hur du tar dig dit, använd kalkylatorn för Ränta på Ränta</string>
+
+    //Rpr
+    <string name="txtInterest01Header">Ränta på ränta</string>
+    <string name="txtInterest02Text">I korthet innebär det att du genom löpande investeringar och återinvestering av vinst gör att din avkastning ökar drastiskt över tid.</string>
+    <string name="txtInterest03Text">Om du exempelvis har ett startkapital på 10 000 SEK och efter år 1 har en avkastning på 8%. Det här innebär att du vid ingången av år 2 har ett totalt kapital på 10 800 SEK. Vid samma avkastning följande år har ditt kapital växt till 11 664 SEK helt utan mer investeringar.</string>
+    <string name="txtInterest04Text" tools:ignore="StringFormatInvalid">Vid ett stående månadssparande blir skillnaden mer påtaglig. Vi tar 20 000 SEK som startkapital, månadsspar på 1000 SEK till 8% avkastning:</string>
+    <string name="txtInterest05Text">År 1 är ditt kapital 33 600 SEK och du har fått en avkastning på 1 600 SEK.</string>
+    <string name="txtInterest06Text">År 5 är ditt kapital 99 800 SEK och du har fått en avkastning på 19 800 SEK.</string>
+    <string name="txtInterest07Text">År 10 är ditt kapital 217 000 SEK och du har fått en avkastning på 77 000 SEK.</string>
+    <string name="txtRprMonthText">Ditt sparande per månad</string>
+    <string name="txtRprRevenueText">Genomsnittlig avkastning i procent</string>
+    <string name="txtRprAmountText">Hur stort är ditt nuvarande kapital?</string>
+    <string name="txtRprYearsText">I hur många år kommer du spara?</string>
+    <string name="txtRprTotalText">Du kommer ha totalt</string>
+    <string name="txtRprYourRevenueText">Din avkastning är</string>
+    <string name="txtRprTotalInvestText">Totalt har du investerat</string>
+    <string name="txtRprDisclaimerText">*Avkastningen beräknas en gång per år</string>
+
+    //Info
+    <string name="txtHowToInvest01Header">Hur ska man investera?</string>
+    <string name="txtHowToInvest02Text" tools:ignore="StringFormatInvalid">En rekommendation är att sikta på att minst sätta av 10% av din lön efter skatt till dina investeringar. Kan du investera mer är det självklart positivt, men att ha det som tumregel är en bra start. Det gör att du verkligen kommer se nyttan av ränta på ränta.</string>
+    <string name="txtHowToInvest03Text">Kom ihåg att sprida dina risker och läs på innan du väljer hur du ska investera. Enklast är att börja med fonder istället för att gå rätt in i aktiemarknaden.</string>
+    <string name="txtHowToInvest04Text">Om du har ett större belopp att börja med så har du alternativen att antingen gå in med allt på en gång eller att sprida ut det över tid. Det är svårt att säga vad som är rätt och fel, men om du går in med allt på en gång bör du vara beredd på att summan kan minska ett tag i början om du skulle köpa in dig precis före en nedgång. Googla på detta så kommer du hitta massa tips om hur man kan tänka.</string>
+    <string name="txtHowToInvest05Text">Det finns otaligt antal olika strategier, titta runt vad som passar dig och din riskbenägenhet.</string>
+    <string name="txtHowToInvest06Text">Ett tips är att sätta upp en automatisk överföring från ditt konto den 25e varje månad samt ordnar så din depå automatiskt investerar detta på det sättet du vill. På det sättet är det lättare att spara kontinuerligt. Eftersom pengarna flyttas innan du ens hinner se att de dykt upp på kontot kommer du lära dig att anpassa dina utgifter.</string>
+
+    <string name="txtFunds01Header">Fonder</string>
+    <string name="txtFunds02Text">Tänk på att välja fonder med låg avgift. Över tid äter en dyr fond upp en stor del av din avkastning.</string>
+    <string name="txtFunds03Text">Det är viktigt att sprida riskerna och många väljer därför att inte enbart investera i aktiefonder utan också i räntefonder, även om de ger lägre avkastning. Detta för att vid en börsnedgång blir inte smällen lika stor.</string>
+
+    <string name="txtShares01Header">Aktier</string>
+    <string name="txtShares02Text">En viktig sak att tänka på är att vid köp av aktier betalar man en köpavgift, så kallat courtage. Courtage är prissatt så att det inte är att rekommendera när man köper för mindre summor. Avgiften skiljer även beroende på vilken börs du handlar. Kolla med din bank innan du börjar handla.</string>
+    <string name="txtShares03Text">Här är det extra viktigt att verkligen läsa på om bolagen, hur ser ekonomin ut? Vilka sitter i styrelsen? Hur ser framtiden ut? Aspekterna är många och du kan aldrig läsa på för mycket. Och kom ihåg att sprida riskerna över olika marknader.</string>
+
+    <string name="txtBank01Header">Att välja bank och kontotyp</string>
+    <string name="txtBank02Text">Det är viktigt att jämföra de olika bankernas avgifter, utbud och rykte. Ett tips är att ta en titt bortom storbankerna. Det finns nämligen väldigt kompetenta nätmäklare i Sverige.</string>
+    <string name="txtBank03Text">Rent skattemässigt är det oftast mest fördelaktigt med ett investeringssparkonto (ISK) eller en kapitalförsäkring (KF). På dessa typer betalar man en schablonskatt varje år istället för att skatta på vinsten. Dessa är snarlika i skattesynpunkt, dock skiljer en del annat. Till exempel kan du själv välja en förmånstagare med KF, men istället så är det banken som formellt äger din depå. Läs på innan du gör ditt val.</string>
+
+    //Skuldkvot
+    <string name="txtSkuldkvotIntroText">Uträkning på din disponibla inkomst gentemot din belåning. Ange din månadsinkomst och dina totala lånekostnader, inkl CSN, bolån, bil etc. Notera att detta inte tar hänsyn till ditt kapital eller dina investeringar och bör därför ses som en fingervisning.</string>
+    <string name="txtSkuldkvotIncomeText">Total inkomst efter skatt</string>
+    <string name="txtSkuldkvotTotalDebtText">Total skuld</string>
+    <string name="txtSkuldkvotResultText">Din skuldkvot är</string>
+    <string name="txtSkuldkvotResultKvotText">Skrivs även som</string>
+    <string name="txtSkuldkvotExplanationText">Genomsnittet bland de med bolån i Sverige är ca 300 samt 400 i storstäderna.</string>
+    <string name="txtSkuldkvotExplanationText02">0–400 räknas som bra, 400-600 som aningen högt samt över 600 som alldeles för högt.</string>
+
+    //Fund Cost
+    <string name="txtFundCostIntroText">Fondavgifterna är avgörande när du väljer fonder. En procentenhet gör väldigt stor skillnad över tid.</string>
+    <string name="txtFundCostInvestText">Investering</string>
+    <string name="txtFundCostRevenueText">Årlig avkastning i %</string>
+    <string name="txtFundCostYearsText">Antal år</string>
+    <string name="txtFundCostFeeAText">Förvaltningsprocent Fond A</string>
+    <string name="txtFundCostFeeBText">Förvaltningsprocent Fond B</string>
+    <string name="txtFundCostValueAText">Värde A</string>
+    <string name="txtFundCostValueBText">Värde B</string>
+    <string name="txtFundCostResultText">Skillnad</string>
+
+
+
+
+</resources>

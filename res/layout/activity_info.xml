@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    tools:context="nu.douhan.madonomics.InfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="0px"
+            android:layout_height="0px" >
+            <requestFocus />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtHowToInvest01"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtHowToInvest01Header"
+            android:textSize="@dimen/header"
+            />
+
+        <TextView
+            android:id="@+id/txtHowToInvest02"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtHowToInvest02Text"
+            android:textSize="@dimen/text"
+            />
+
+        <TextView
+            android:id="@+id/txtHowToInvest03"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtHowToInvest03Text"
+            android:textSize="@dimen/text"
+            />
+
+        <TextView
+            android:id="@+id/txtHowToInvest04"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtHowToInvest04Text"
+            android:textSize="@dimen/text"
+            />
+
+        <TextView
+        android:id="@+id/txtHowToInvest05"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtHowToInvest05Text"
+        android:textSize="@dimen/text"
+        />
+
+        <TextView
+            android:id="@+id/txtHowToInvest06"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtHowToInvest06Text"
+            android:textSize="@dimen/text"
+            />
+
+        <TextView
+            android:id="@+id/txtFunds01"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtFunds01Header"
+            android:textSize="@dimen/header"
+            />
+
+        <TextView
+            android:id="@+id/txtFunds02"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtFunds02Text"
+            android:textSize="@dimen/text"
+            />
+
+        <TextView
+            android:id="@+id/txtFunds03"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtFunds03Text"
+            android:textSize="@dimen/text"
+            />
+
+        <TextView
+            android:id="@+id/txtShares01"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtShares01Header"
+            android:textSize="@dimen/header"
+            />
+
+        <TextView
+            android:id="@+id/txtShares02"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtShares02Text"
+            android:textSize="@dimen/text"
+            />
+
+        <TextView
+            android:id="@+id/txtShares03"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtShares03Text"
+            android:textSize="@dimen/text"
+            />
+
+        <TextView
+            android:id="@+id/txtBank01"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtBank01Header"
+            android:textSize="@dimen/header"
+            />
+
+        <TextView
+            android:id="@+id/txtBank02"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtBank02Text"
+            android:textSize="@dimen/text"
+            />
+
+        <TextView
+            android:id="@+id/txtBank03"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtBank03Text"
+            android:textSize="@dimen/text"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

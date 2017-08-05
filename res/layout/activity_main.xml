@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    android:scrollbars="none"
+    tools:context="nu.douhan.madonomics.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="0px"
+            android:layout_height="0px" >
+            <requestFocus />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtStart01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtStart01Text"
+            android:textSize="@dimen/header"
+            />
+
+        <TextView
+            android:id="@+id/txtStart02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/txtStart02Text"
+            android:textSize="@dimen/text"
+            />
+
+        <TextView
+            android:id="@+id/txtStart03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/txtStart03Text"
+            android:textSize="@dimen/text"
+            />
+
+        <TextView
+            android:id="@+id/txtStart04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/txtStart04Text"
+            android:textSize="@dimen/text"
+            />
+
+        <Button
+            android:id="@+id/btnStartFri"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/btnStartFriText"
+            android:onClick="startFri"
+            android:background="@color/btnBG"
+            android:textColor="@color/btnText"
+
+            />
+
+        <Button
+            android:id="@+id/btnStartRpr"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/btnStartRprText"
+            android:onClick="startRpr"
+            android:background="@color/btnBG"
+            android:textColor="@color/btnText"
+            />
+
+   <!--     <Button
+            android:id="@+id/btnStartFundCost"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/btnStartFundCost"
+            android:onClick="startFundCost"
+            android:background="@color/btnBG"
+            android:textColor="@color/btnText"
+            />-->
+
+        <Button
+            android:id="@+id/btnStartSkuldkvot"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/btnStartSkuldkvotText"
+            android:onClick="startSkuldkvot"
+            android:background="@color/btnBG"
+            android:textColor="@color/btnText"
+            />
+
+        <Button
+            android:id="@+id/btnStartInfo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/btnStartInfoText"
+            android:onClick="startInfo"
+            android:background="@color/btnBG"
+            android:textColor="@color/btnText"
+            />
+
+    </LinearLayout>
+</ScrollView>
